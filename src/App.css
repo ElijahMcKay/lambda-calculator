@@ -1,0 +1,52 @@
+.container {
+    background: rgb(199, 54, 54); 
+    width: 470px; 
+    height: 710px; 
+    border-radius: 20px; 
+    font-size: 62.5%; 
+}
+
+.App {
+    text-align: center; 
+}
+
+.container .logo {
+    margin: 1.5rem 0 0 1.5rem; 
+}
+
+.display {
+    text-align: right; 
+    margin: 2rem auto; 
+    text-decoration: none; 
+    background: rgb(75, 75, 75); 
+    border: 1px solid rgb(75, 75, 75); 
+    border-radius: 100px; 
+    height: 5rem; 
+    width: 80%; 
+    color: white; 
+    color: white; 
+    text-align: right; 
+    font-size: 3rem; 
+}
+
+.numbers-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    height: 2.5rem; 
+}
+
+.numbers {
+    width: 5rem; 
+    height: 5rem; 
+    background: rgb(62, 62, 167); 
+    color: white; 
+    border-radius: 100px;
+    margin-top: 2rem;  
+    margin-left: 1rem;
+    margin-right: 1rem; 
+}
+
+.numbers:nth-child(10) {
+    width: 11rem; 
+    }
